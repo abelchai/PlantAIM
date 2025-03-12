@@ -26,9 +26,9 @@ The contributions of this paper:
 * download [ViT pretrained weight](https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-vitjx/jx_vit_base_p16_224-80ecf9dd.pth) link (From [rwightman Github timm repo](https://github.com/huggingface/pytorch-image-models))
 
 ## Implementations
-PlantAIM (2H) >> [code](model/PlantAIM_2H.py)
+PlantAIM (2H) >> [pytorch implementation code](model/PlantAIM_2H.py)
 
-PlantAIM (1H) >> [code](model/PlantAIM_1H.py)
+PlantAIM (1H) >> [pytorch implementation code](model/PlantAIM_1H.py)
 
 Notes
 * The csv file (metadata of images) are [here](dataset/) 
@@ -37,6 +37,15 @@ Notes
 1. [Pairwise Feature Learning for Unseen Plant Disease Recognition](https://ieeexplore.ieee.org/abstract/document/10222401/): The first implementation of FF-ViT model with moving weighted sum. The current work improved and evaluated the performance of FF-ViT model on larger-scale dataset.
 2. [Unveiling Robust Feature Spaces: Image vs. Embedding-Oriented Approaches for Plant Disease Identification](https://ieeexplore.ieee.org/abstract/document/10317550/): The analysis between image or embedding feature space for plant disease identifications.
 3. [Beyond-supervision-Harnessing-self-supervised-learning-in-unseen-plant-disease-recognition](https://www.sciencedirect.com/science/article/pii/S0925231224013791): Cross Learning Vision Transformer (CL-ViT) model that incorporating self-supervised learning into a supervised model.
+
+## Dependencies
+Pandas == 1.4.1  
+Numpy == 1.22.2  
+torch == 1.10.2  
+timm == 0.5.4  
+tqdm == 4.62.3  
+torchvision == 0.11.3  
+albumentations == 1.1.0  
 
 ## License
 
