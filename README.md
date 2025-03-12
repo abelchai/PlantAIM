@@ -26,9 +26,9 @@ The contributions of this paper:
 * download [ViT pretrained weight](https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-vitjx/jx_vit_base_p16_224-80ecf9dd.pth) link (From [rwightman Github timm repo](https://github.com/huggingface/pytorch-image-models))
 
 ## Implementations
-PlantAIM (2H) >> [code](model/CL-ViT.py)
+PlantAIM (2H) >> [code](model/PlantAIM_2H.py)
 
-PlantAIM (1H) >> [code](model/CL-ViT.py)
+PlantAIM (1H) >> [code](model/PlantAIM_1H.py)
 
 Notes
 * The csv file (metadata of images) are [here](dataset/) 
