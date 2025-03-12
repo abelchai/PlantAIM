@@ -17,8 +17,11 @@ The contributions of this paper:
 ![apple Results](result/apple.png)
 
 ## Preparation
-* Dataset: [spMohanty Github](https://github.com/spMohanty/PlantVillage-Dataset/tree/master)  
+* PV Dataset: [spMohanty Github](https://github.com/spMohanty/PlantVillage-Dataset/tree/master)  
 (You can group all images into single folder to directly use the csv file provided in this repo)
+* PlantDoc dataset: [Kaggle](https://www.kaggle.com/datasets/abdulhasibuddin/plant-doc-dataset) 
+
+* IPM and Bing dataset will be release soon
 
 * download [ViT pretrained weight](https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-vitjx/jx_vit_base_p16_224-80ecf9dd.pth) link (From [rwightman Github timm repo](https://github.com/huggingface/pytorch-image-models))
 
