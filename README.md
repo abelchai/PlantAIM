@@ -32,3 +32,19 @@ PlantAIM (1H) >> [code](model/CL-ViT.py)
 
 Notes
 * The csv file (metadata of images) are [here](dataset/) 
+
+## License
+
+Creative Commons Attribution-Noncommercial-NoDerivative Works 4.0 International License (“the [CC BY-NC-ND License](https://creativecommons.org/licenses/by-nc-nd/4.0/)”)
+
+## Citation
+
+```bibtex
+@article{chai2025plantaim,
+  title={PlantAIM: A New Baseline Model Integrating Global Attention and Local Features for Enhanced Plant Disease Identification},
+  author={Chai, Abel Yu Hao and Lee, Sue Han and Tay, Fei Siang and Go{\"e}au, Herv{\'e} and Bonnet, Pierre and Joly, Alexis},
+  journal={Smart Agricultural Technology},
+  pages={100813},
+  year={2025},
+  publisher={Elsevier}
+}
