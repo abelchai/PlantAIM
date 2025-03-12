@@ -31,4 +31,4 @@ PlantAIM (2H) >> [code](model/CL-ViT.py)
 PlantAIM (1H) >> [code](model/CL-ViT.py)
 
 Notes
-* The csv file (metadata of images) are [here](dataset/csv_FFViT/) 
+* The csv file (metadata of images) are [here](dataset/) 
