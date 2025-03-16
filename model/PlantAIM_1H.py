@@ -121,7 +121,10 @@ class Model_SL(nn.Module):
         self.fc_p = nn.Linear(self.dim, num_plant)
 
         
-        self.apply(self._init_weights)
+        # Apply weight initialization only to new layers
+        self._init_weights(self.mlp)
+        self._init_weights(self.block1)
+        self._init_weights(self.fc_p)
 
     def _init_weights(self, module):
         if isinstance(module, nn.Linear):
