@@ -3,7 +3,7 @@
 - [Contribution](#contribution)
 - [Proposed Model](#proposed-model)
 - [Results](#result)
-- [Preparation](#preparation)
+- [Preparation](#dataset-and-pretrained-weight)
 - [Implementation](#implementations)
 - [License](#license)
 - [Citation](#citation)
@@ -38,7 +38,7 @@ Plant Disease Global-Local Features Fusion Attention model (PlantAIM) [[code]](m
 ![cherry Results](result/cherry.png)
 ![apple Results](result/apple.png)
 
-## Preparation
+## Dataset and pretrained weight
 * PV Dataset: [spMohanty Github](https://github.com/spMohanty/PlantVillage-Dataset/tree/master)  
 (You can group all images into single folder to directly use the csv file provided in this repo)
 * PlantDoc dataset: [Kaggle](https://www.kaggle.com/datasets/abdulhasibuddin/plant-doc-dataset) 
