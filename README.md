@@ -1,11 +1,11 @@
 # PlantAIM: A New Baseline Model Integrating Global Attention and Local Features for Enhanced Plant Disease Identification
 
-### Abstract
+## Abstract
 [[Paper]](https://www.sciencedirect.com/science/article/pii/S2772375525000474)
 
 Plant diseases significantly affect the quality and yield of agricultural production. Conventionally, detection has relied on plant pathologists, but recent advances in deep learning, particularly the Vision Transformer (ViT) and Convolutional Neural Network (CNN), have made it feasible for automated plant disease identification. Despite their prominence, there are still significant gaps in our understanding of how these models differ in feature extraction and representation, particularly in complex multi-crop disease identification tasks. This challenge arises from the simultaneous need to learn crop-specific and disease-specific features for accurate identification of crop species and its associated diseases. To address this, we introduce Plant Disease Glocal-Local Features Fusion Attention Model (PlantAIM), a new hybrid framework that fuses global attention mechanisms of ViT with local feature extraction capabilities of CNN. PlantAIM aims to improve the model's ability to simultaneously learn and focus on crop-specific and disease-specific features. We conduct extensive evaluations to assess the robustness and generalizability of PlantAIM compared to state-of-the-art (SOTA) models, including scenarios with limited training samples and real-world environmental data. Our results show that PlantAIM achieves superior performance. This research not only deepens our understanding of feature learning for ViT and CNN models, but also sets a new benchmark in the dynamic field of plant disease identification. The code will be made available upon publication.
 
-### Contribution
+## Contribution
 1. We introduce novel Plant Disease Global-Local Features Fusion Attention model (PlantAIM), which combines ViT and CNN components to enhance feature extraction for multi-crop plant disease identification.
 2. Our experimental results demonstrate PlantAIM's exceptional robustness and generalization, achieving state-of-the-art performance in both controlled environments and real-world scenarios.
 3. Our feature visualization analysis reveals that CNNs emphasize plant patterns, while ViTs focus on disease symptoms.
