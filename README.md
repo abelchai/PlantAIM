@@ -1,3 +1,13 @@
+## Table of Contents
+- [Abstract](#abstract)
+- [Contribution](#contribution)
+- [Proposed Model](#proposed-model)
+- [Results](#result)
+- [Preparation](#preparation)
+- [Implementation](#implementations)
+- [License](#license)
+- [Citation](#citation)
+
 # PlantAIM: A New Baseline Model Integrating Global Attention and Local Features for Enhanced Plant Disease Identification
 
 ## Abstract
@@ -20,7 +30,7 @@ Plant Disease Global-Local Features Fusion Attention model (PlantAIM) [[code]](m
   <i>Proposed PlantAIM architecture.</i>
 </p>
 
-## Acc Result
+## Result
 ![Acc Results](result/result.png)
 
 ## Grad-CAM visualization result
