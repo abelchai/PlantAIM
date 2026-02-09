@@ -70,10 +70,25 @@ pip install -r requirements_plantaim.txt
 Creative Commons Attribution-Noncommercial-NoDerivative Works 4.0 International License (“the [CC BY-NC-ND License](https://creativecommons.org/licenses/by-nc-nd/4.0/)”)
 
 ## See also
-1. [Pairwise Feature Learning for Unseen Plant Disease Recognition](https://ieeexplore.ieee.org/abstract/document/10222401/): The first implementation of FF-ViT model with moving weighted sum. The current work improved and evaluated the performance of FF-ViT model on larger-scale dataset.
-2. [Unveiling Robust Feature Spaces: Image vs. Embedding-Oriented Approaches for Plant Disease Identification](https://ieeexplore.ieee.org/abstract/document/10317550/): The analysis between image or embedding feature space for plant disease identifications.
-3. [Beyond-supervision-Harnessing-self-supervised-learning-in-unseen-plant-disease-recognition](https://www.sciencedirect.com/science/article/pii/S0925231224013791): Cross Learning Vision Transformer (CL-ViT) model that incorporating self-supervised learning into a supervised model.
+1. [Pairwise Feature Learning for Unseen Plant Disease Recognition](https://ieeexplore.ieee.org/abstract/document/10222401/)
 
+   The first implementation of FF-ViT model with moving weighted sum. The current work improved and evaluated the performance of FF-ViT model on larger-scale dataset.
+2. [Unveiling Robust Feature Spaces: Image vs. Embedding-Oriented Approaches for Plant Disease Identification](https://ieeexplore.ieee.org/abstract/document/10317550/)
+
+   The analysis between image or embedding feature space for plant disease identifications.
+   
+3. [Beyond-supervision-Harnessing-self-supervised-learning-in-unseen-plant-disease-recognition](https://www.sciencedirect.com/science/article/pii/S0925231224013791)
+ 
+   Cross Learning Vision Transformer (CL-ViT) model that incorporating self-supervised learning into a supervised model.
+
+4. [Can Language Improve Visual Features For Distinguishing Unseen Plant Diseases?](https://link.springer.com/chapter/10.1007/978-3-031-78113-1_20)
+
+   FF-CLIP model that incorporate textual data as language cues in guiding visual features to improve the identification of unseen plant diseases.
+
+5. [Deep-Plant-Disease Dataset Is All You Need for Plant Disease Identification](https://dl.acm.org/doi/abs/10.1145/3746027.3758192)
+
+   We curated the largest plant disease dataset with text descriptions known as Deep-Plant-Disease, comprising 248,578 images across 55 crop species, 175 disease classes, and 333 unique crop-disease compositions. We also conducted comprehensive benchmarking across   multiple downstream tasks in plant disease identification under diverse conditions that simulate different real-world challenges.
+   
 ## Citation
 
 ```bibtex
