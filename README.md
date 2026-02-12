@@ -37,7 +37,9 @@ Plant Disease Global-Local Features Fusion Attention model (PlantAIM) [[code]](m
 </p>
 
 ## Result
-![Acc Results](figure/result.png)
+<p align="center">
+  <img src="figure/results.png" alt="results" width="700">
+</p>
 
 ## Grad-CAM visualization result
 ![tomato Results](figure/tomato.png)
