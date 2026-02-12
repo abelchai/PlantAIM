@@ -17,6 +17,10 @@ This paper is accepted on Smart Agricultural Technology 2025 [[Link]](https://ww
 
 Plant diseases significantly affect the quality and yield of agricultural production. Conventionally, detection has relied on plant pathologists, but recent advances in deep learning, particularly the Vision Transformer (ViT) and Convolutional Neural Network (CNN), have made it feasible for automated plant disease identification. Despite their prominence, there are still significant gaps in our understanding of how these models differ in feature extraction and representation, particularly in complex multi-crop disease identification tasks. This challenge arises from the simultaneous need to learn crop-specific and disease-specific features for accurate identification of crop species and its associated diseases. To address this, we introduce Plant Disease Glocal-Local Features Fusion Attention Model (PlantAIM), a new hybrid framework that fuses global attention mechanisms of ViT with local feature extraction capabilities of CNN. PlantAIM aims to improve the model's ability to simultaneously learn and focus on crop-specific and disease-specific features. We conduct extensive evaluations to assess the robustness and generalizability of PlantAIM compared to state-of-the-art (SOTA) models, including scenarios with limited training samples and real-world environmental data. Our results show that PlantAIM achieves superior performance. This research not only deepens our understanding of feature learning for ViT and CNN models, but also sets a new benchmark in the dynamic field of plant disease identification. The code will be made available upon publication.
 
+<p align="center">
+  <img src="figure/intro.png" alt="intro" width="800" height="600">
+</p>
+
 ## Contribution
 1. We introduce novel Plant Disease Global-Local Features Fusion Attention model (PlantAIM), which combines ViT and CNN components to enhance feature extraction for multi-crop plant disease identification.
 2. Our experimental results demonstrate PlantAIM's exceptional robustness and generalization, achieving state-of-the-art performance in both controlled environments and real-world scenarios.
@@ -33,12 +37,12 @@ Plant Disease Global-Local Features Fusion Attention model (PlantAIM) [[code]](m
 </p>
 
 ## Result
-![Acc Results](result/result.png)
+![Acc Results](figure/result.png)
 
 ## Grad-CAM visualization result
-![tomato Results](result/tomato.png)
-![cherry Results](result/cherry.png)
-![apple Results](result/apple.png)
+![tomato Results](figure/tomato.png)
+![cherry Results](figure/cherry.png)
+![apple Results](figure/apple.png)
 
 ## Dataset and pretrained weight
 * PV Dataset: [spMohanty Github](https://github.com/spMohanty/PlantVillage-Dataset/tree/master)  
